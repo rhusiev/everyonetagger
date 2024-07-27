@@ -1,0 +1,16 @@
+[project]
+name = "EveryoneTagger"
+version = "0"
+description = "EveryoneTagger is a telegram bot that can help tag people in group chats."
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "pytelegrambotapi>=4.12.0",
+    "pyyaml>=6.0.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "GPLv3"}
+
+[tool.pdm.dev-dependencies]
+dev = [
+]
